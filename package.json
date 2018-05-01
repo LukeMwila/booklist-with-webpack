@@ -4,7 +4,8 @@
   "description": "Getting started with Webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack ./index.js bundle.js"
+    "start": "webpack-dev-server ./index.js",
+    "build": "webpack --mode  production"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "css-loader": "^0.28.11",
     "jquery": "^3.3.1",
     "node-libs-browser": "^2.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "style-loader": "^0.21.0"
   },
   "devDependencies": {
